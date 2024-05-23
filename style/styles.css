@@ -1,0 +1,66 @@
+﻿body{
+    text-align: center;
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.button-login{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.button{
+    background-color: rgba(143, 151, 160, 0);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+   opacity: .60;
+}
+
+.button-logoff{
+    color: red;
+    border-color: red;
+}
+
+.link{
+    color: #b84848
+}
+
+
+
+/* Styles du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styles pour les alternances de couleur des lignes */
+tr:nth-child(even) {
+    background-color: #56474774;
+}
