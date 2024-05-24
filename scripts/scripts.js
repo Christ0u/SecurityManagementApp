@@ -9,3 +9,11 @@ function logoff(){
 function displayIncidents(){
     location.href = "../src/display_incidents.php";
 }
+
+function registerIncidents(){
+    location.href = "../src/register_incidents.php";
+}
+
+function addIncident(){
+    alert("L'incident a été ajouté.");
+}
