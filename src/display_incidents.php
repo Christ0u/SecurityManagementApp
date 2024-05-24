@@ -22,7 +22,7 @@
             require_once(__DIR__ . '/init.php');
 
             //Exécution de la requête SQL & Récupération des résultats
-            $query = "SELECT * FROM `incident`";
+            $query = "SELECT * FROM `incident` ORDER BY `incident_date` DESC";
             $result = $conn->query($query);
 
             if ($result->num_rows > 0) {
