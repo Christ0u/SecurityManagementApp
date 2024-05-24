@@ -30,7 +30,7 @@
                     $_SESSION['isLoggedIn'] = 1;
                     echo "<h1>Bienvenue " . $user['first_name'] . " " . $user['last_name'] . "👋</h1><br>";
                     echo "<button class='button' onclick='displayIncidents();'>Voir les incidents</button>";
-                    echo "<button class='button'>Saisir un incident</button>";
+                    echo "<button class='button' onclick='registerIncidents();'>Saisir un incident</button>";
                     echo "<button class='button button-logoff' onclick='logoff();'>Déconnexion</button>";
                 }
                 else{

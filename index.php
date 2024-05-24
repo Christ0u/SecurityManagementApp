@@ -17,7 +17,7 @@
         <p><i>
             Développé par GERARD Christopher, CUNY Cédric & FIORE Anaïs
             <br>
-            Notre dépot GitHub est accessible <a class="link" href="" target="_blank">ici</a>
+            Notre dépot GitHub est accessible <a class="link" href="https://github.com/Christ0u/SecurityManagementApp" target="_blank">ici</a>
         </i></p>
 
         <h2>Formulaire de connexion</h2>
